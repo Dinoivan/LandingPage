@@ -244,6 +244,7 @@ img {
 
 .text-primary {
     color: #7c4fe0 !important;
+
 }
 
 .text-secondary {
@@ -279,15 +280,19 @@ img {
 
 .section-heading {
     margin-bottom: 80px;
+    font-size: 40px;
+
 }
 
 .section-heading>span {
     color: #222;
 }
 
+
 .section-heading>h2 {
     position: relative;
 }
+
 
 .section-heading>h2::after {
     position: absolute;
@@ -1271,6 +1276,7 @@ div.button-group.store-buttons.d-flex {
     background-size: 100%;
     max-width: 290px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .features-area.style-two .image-box {
@@ -1575,57 +1581,28 @@ h1.text-white {
     }
 }*/
 
-
-.price-plans {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .single-price-plan {
+.single-price-plan {
     -webkit-box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
     background-color: #fff;
     border-radius: 1rem;
-    display: inline-block;
-    margin: 0 10px;
-    text-align: center;
-  }
-  
-  .plan-title>h3 {
+}
+
+.plan-title>h3 {
     letter-spacing: 3px;
     opacity: 0.8;
-  }
-  
-  .plan-price>h1>small {
+}
+
+.plan-price>h1>small {
     font-size: 60%;
-  }
-  
-  .plan-button {
+}
+
+.plan-button {
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-  }
-  
-  @media (min-width: 640px) {
-    .single-price-plan {
-      width: 45%;
-    }
-  }
-  
-  @media (min-width: 960px) {
-    .single-price-plan {
-      width: 30%;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .single-price-plan {
-      width: 23.33%;
-    }
-  }
+}
 
 /* ******************************
 :: 18.0 FAQ AREA CSS
