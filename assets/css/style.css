@@ -11,6 +11,7 @@
 ******* :: INDEX OF CSS :: *******
 :: 1.0 WEB FONTS
 :: 2.0 IMPORT ALL CSS
+:: JavaScript
 :: 3.0 GLOBAL CSS
 :: 4.0 COMMON CSS
 :: 5.0 PRELOADER CSS
@@ -62,6 +63,14 @@
 @import url(owl.carousel.min.css);
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
+
+
+
+/* ******************************
+:: JavaScript
+****************************** */
+
+
 
 /* ******************************
 :: 3.0 GLOBAL CSS
@@ -372,6 +381,9 @@ img {
     color: #fff;
 }
 
+
+
+
 .btn.sApp-btn:before {
     position: absolute;
     content: "";
@@ -671,7 +683,6 @@ div.button-group.store-buttons.d-flex {
 /* ******************************
 :: 5.0 PRELOADER AREA CSS
 ****************************** */
-
 .preloader-main {
     position: fixed;
     height: 100%;
@@ -1035,6 +1046,15 @@ div.button-group.store-buttons.d-flex {
 :: 8.0 WELCOME AREA CSS
 ****************************** */
 
+#particles-js { 
+    height: 100vh;
+    width: 100%;
+    
+    position: fixed;
+    z-index: -1;
+    margin: 100px;
+}
+
 .welcome-area {
     height: 800px;
     z-index: 1;
@@ -1381,6 +1401,7 @@ div.button-group.store-buttons.d-flex {
     margin-left: 2px;
     border: 2px solid #50eb3e;
     border-radius: 10px;
+    box-shadow: 5px 5px 14px 1px #50eb3e;
 }
 
 #imagen1{
@@ -1389,10 +1410,12 @@ div.button-group.store-buttons.d-flex {
     padding: 5px;
     border: 2px solid #50eb3e;
     border-radius: 10px;
+    box-shadow: 5px 5px 14px 1px #50eb3e;
 }
 
 #imagen:hover{
     color: #28a745;
+    cursor: pointer;
     
 }
 
